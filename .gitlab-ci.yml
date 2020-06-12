@@ -1,1 +1,21 @@
+image: python:3.7
+
+before_script:
+    - python --version
+    - pip install -r requirements.txt
+    - pip install -r dev_requirements.txt
+    
+stages:
+    - static
+    - test
+    
+Static_Analisys:
+    stage: static
+    script:
+        - python -m flake8
+        
+Tests:
+    stage: test
+    script:
+        - python -m unittest
 
