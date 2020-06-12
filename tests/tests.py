@@ -31,5 +31,3 @@ class TestGoldenSectionMethod(unittest.TestCase):
         last_iter = iterations_list[actual_iterations_num]
         end_interval_size = abs(last_iter[len(last_iter) - 1] - last_iter[0])
         self.assertEqual(end_interval_size < eps, True)
-
-
