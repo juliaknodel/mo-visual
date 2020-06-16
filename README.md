@@ -12,7 +12,9 @@
 > git clone https://gitlab.com/juliaknodel/mo-visual.git
 2. Установите всё упомянутое в requirements.txt
 > pip install -r requirements.txt
-3. Запустите source/visual.py
+3. Перейдите в корень проекта и запустите source/visual.py
+> python source/visual.py
+
 
 ## Пример использования
 
