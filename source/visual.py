@@ -15,7 +15,7 @@ from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT \
     as NavigationToolbar
 import matplotlib.pyplot as plt
 
-from source.golden_section import golden_section_method
+from golden_section import golden_section_method
 
 
 class Window(QDialog):
