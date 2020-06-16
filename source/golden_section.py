@@ -22,8 +22,10 @@ def golden_section_method(function, left_border, right_border, accuracy):
     :param left_border: left border of the initial uncertainty interval
     :param right_border: right border of the initial uncertainty interval
     :param accuracy: required accuracy of the solution
-    :return: 1. dictionary that stores the state at each iteration (the boundaries of the uncertainty interval)
-                by the key ['iteration number'] and solution by the key ['answer']
+    :return: 1. dictionary that stores the state at each iteration
+                (the boundaries of the uncertainty interval)
+                by the key ['iteration number']
+                and solution by the key ['answer']
              2. number of iterations
     """
     n_fact = 0
